@@ -1,0 +1,92 @@
+>> Vite
+
+    Install PrimeVue with Vite : https://primevue.org/vite/
+
+    # Using npm
+    npm install primevue
+
+
+    # Using npm
+    npm install @primevue/themes
+
+
+    import { createApp } from 'vue';
+    import PrimeVue from 'primevue/config';
+    import Aura from '@primevue/themes/aura';
+
+    const app = createApp(App);
+    app.use(PrimeVue, {
+        theme: {
+            preset: Aura
+        }
+    });
+
+
+    import { createApp } from "vue";
+    import PrimeVue from "primevue/config";
+    const app = createApp(App);
+
+    app.use(PrimeVue, {
+        unstyled: true
+    });
+
+
+    import Button from "primevue/button"
+
+    const app = createApp(App);
+    app.component('Button', Button);
+
+
+>> Nuxt 
+    Install PrimeVue with Nuxt
+
+# Using npm
+npm install primevue
+npm install --save-dev @primevue/nuxt-module    
+
+export default defineNuxtConfig({
+    modules: [
+        '@primevue/nuxt-module'
+    ],
+    primevue: {
+        /* Configuration */
+    }
+})
+
+# Using npm
+npm install @primevue/themes
+
+# Using yarn
+yarn add @primevue/themes
+
+# Using pnpm
+pnpm add @primevue/themes
+
+
+import Aura from '@primevue/themes/aura';
+
+export default defineNuxtConfig({
+    modules: [
+        '@primevue/nuxt-module'
+    ],
+    primevue: {
+        options: {
+            theme: {
+                preset: Aura
+            }
+        }
+    }
+})
+
+
+
+export default defineNuxtConfig({
+    modules: [
+        '@primevue/nuxt-module'
+    ],
+    primevue: {
+        options: {
+            unstyled: true
+        }
+    }
+})
