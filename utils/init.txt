@@ -1,0 +1,6 @@
+https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-32-bit.exe
+
+https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+
+
+https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi
