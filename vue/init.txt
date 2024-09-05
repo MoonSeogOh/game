@@ -1,0 +1,22 @@
+[VueJS] VSCode 에서 VueJS 시작하기 - ① 설치 및 세팅 방법   -- https://haenny.tistory.com/247
+    npm install -g @vue/cli
+    Extensions "vetur" "html css support" "vue 3 snippets"
+
+[VueJS] VSCode 에서 VueJS 시작하기 - ② Vue 프로젝트 생성하기 -- https://haenny.tistory.com/248
+    
+
+
+UI Libraries
+
+1. https://vuetifyjs.com
+2. https://quasar.dev/
+3. https://primevue.org/   <--
+
+Chinese focused
+4. https://element-plus.org/
+5. https://antdv.com/
+6. https://github.com/tusen-ai/naive-ui
+
+
+Vue-PDF-Viewer
+1. https://demo.vue-pdf-viewer.dev/
